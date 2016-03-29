@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(robustETM)
+importFrom("stats", "glm", "optim", "rbeta", "rbinom", "rgamma",
+             "rnbinom", "rnorm", "rt", "t.test", "vcov", "wilcox.test")
+
